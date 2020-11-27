@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-class Suite" parallel="tests" >
+<test name="Android - Tests" >
+    <parameter name="deviceName" value="Nexus5X"/>
+    <parameter name="platform" value="Android"/>
+    <classes>
+        <class name="tests.ComponentTests"/>
+    </classes>
+</test> <!-- Test -->
+</suite>
