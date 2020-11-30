@@ -13,7 +13,7 @@ public final class AppiumServerJava {
         final String url = PropertyManager.getInstance().get("appium.server.url");
         final String appiumJsRunner = PropertyManager.getInstance().get("appium.server.js.path");
         final String pathName = PropertyManager.getInstance().get("path.name");
-        final int appiumServerPort = 4727;
+        final int appiumServerPort = 4728;
         
         AppiumDriverLocalService service = AppiumDriverLocalService.buildService(
                 new AppiumServiceBuilder()

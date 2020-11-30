@@ -7,6 +7,7 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 import java.util.concurrent.TimeUnit;
 
 public class AndroidDriverManager extends DriverManager {
+
     @Override
     public AppiumDriver createDriver(AppiumDriverLocalService service) {
         driver = new AndroidDriver(service, cap);
