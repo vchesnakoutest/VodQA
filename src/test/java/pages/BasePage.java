@@ -41,7 +41,7 @@ abstract public class BasePage {
         }
     }
 
-    boolean waitForElementToDissapear(MobileElement element){
+    boolean waitForElementToDissappear(MobileElement element){
         try {
             wait.until(ExpectedConditions.invisibilityOf(element));
             return true;
